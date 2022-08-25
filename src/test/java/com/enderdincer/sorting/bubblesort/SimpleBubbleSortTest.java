@@ -18,7 +18,7 @@ public class SimpleBubbleSortTest {
         int[] expectedArray = Arrays.copyOf(givenArray, givenArray.length);
         Arrays.sort(expectedArray);
 
-        final int[] actualArray = SortingTestHelper.measureTime(() -> simpleBubbleSort.sort(givenArray));
+        final int[] actualArray = SortingTestHelper.measureTimeAndReturnResult(() -> simpleBubbleSort.sort(givenArray));
 
         Assertions.assertThat(actualArray).isEqualTo(expectedArray);
     }
@@ -29,7 +29,7 @@ public class SimpleBubbleSortTest {
         int[] expectedArray = Arrays.copyOf(givenArray, givenArray.length);
         Arrays.sort(expectedArray);
 
-        final int[] actualArray = SortingTestHelper.measureTime(() -> simpleBubbleSort.sort(givenArray));
+        final int[] actualArray = SortingTestHelper.measureTimeAndReturnResult(() -> simpleBubbleSort.sort(givenArray));
 
         Assertions.assertThat(actualArray).isEqualTo(expectedArray);
     }

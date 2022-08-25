@@ -20,7 +20,7 @@ public class SimpleBubbleSortListTest {
                 .boxed().collect(Collectors.toList());
         final List<Integer> expectedList = givenList.stream().sorted().collect(Collectors.toList());
 
-        final List<Integer> actualList = SortingTestHelper.measureTime(() -> simpleBubbleSort.sort(givenList));
+        final List<Integer> actualList = SortingTestHelper.measureTimeAndReturnResult(() -> simpleBubbleSort.sort(givenList));
 
         Assertions.assertThat(actualList).isEqualTo(expectedList);
     }
@@ -32,7 +32,7 @@ public class SimpleBubbleSortListTest {
                 .boxed().collect(Collectors.toList());
         final List<Integer> expectedList = givenList.stream().sorted().collect(Collectors.toList());
 
-        final List<Integer> actualList = SortingTestHelper.measureTime(() -> simpleBubbleSort.sort(givenList));
+        final List<Integer> actualList = SortingTestHelper.measureTimeAndReturnResult(() -> simpleBubbleSort.sort(givenList));
 
         Assertions.assertThat(actualList).isEqualTo(expectedList);
     }
@@ -41,6 +41,16 @@ public class SimpleBubbleSortListTest {
     public void givenArrayNotSorted() {
         final List<Integer> givenList = List.of(2, 1, 3, 6, 5, 6, 7, 4);
         final List<Integer> expectedList = List.of(1, 2, 3, 4, 5, 6, 6, 7);
+
+        final List<Integer> actualList = simpleBubbleSort.sort(givenList);
+
+        Assertions.assertThat(actualList).isEqualTo(expectedList);
+    }
+
+    @Test
+    public void givenArrayIsWorstCase() {
+        final List<Integer> givenList = List.of(7, 6, 5, 4, 3, 2, 1);
+        final List<Integer> expectedList = List.of(1, 2, 3, 4, 5, 6, 7);
 
         final List<Integer> actualList = simpleBubbleSort.sort(givenList);
 
