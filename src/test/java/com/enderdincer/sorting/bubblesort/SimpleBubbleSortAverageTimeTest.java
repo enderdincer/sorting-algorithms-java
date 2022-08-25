@@ -2,7 +2,6 @@ package com.enderdincer.sorting.bubblesort;
 
 import com.enderdincer.sorting.SortingAlgorithm;
 import com.enderdincer.sorting.util.SortingTestHelper;
-import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
 import java.util.List;
