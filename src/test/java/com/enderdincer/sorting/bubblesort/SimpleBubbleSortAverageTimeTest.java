@@ -1,6 +1,6 @@
 package com.enderdincer.sorting.bubblesort;
 
-import com.enderdincer.sorting.SortingAlgorithm;
+import com.enderdincer.sorting.integer.IntegerSorter;
 import com.enderdincer.sorting.util.SortingTestHelper;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 
 public class SimpleBubbleSortAverageTimeTest {
 
-    SortingAlgorithm simpleBubbleSort = new SimpleBubbleSort();
+    IntegerSorter simpleBubbleSort = new SimpleBubbleSort();
 
     private static List<Integer> getRandomList(int size){
         return IntStream.range(0, size)

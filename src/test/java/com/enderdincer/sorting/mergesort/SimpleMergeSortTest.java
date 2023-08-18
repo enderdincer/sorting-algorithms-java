@@ -1,6 +1,6 @@
 package com.enderdincer.sorting.mergesort;
 
-import com.enderdincer.sorting.SortingAlgorithm;
+import com.enderdincer.sorting.integer.IntegerSorter;
 import com.enderdincer.sorting.util.SortingTestHelper;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 
 public class SimpleMergeSortTest {
 
-    SortingAlgorithm simpleMergeSort = new SimpleMergeSort();
+    IntegerSorter simpleMergeSort = new SimpleMergeSort();
 
     @Test
     public void given100_000RandomIntegers() {

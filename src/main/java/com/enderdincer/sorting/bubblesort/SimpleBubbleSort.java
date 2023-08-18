@@ -1,12 +1,12 @@
 package com.enderdincer.sorting.bubblesort;
 
-import com.enderdincer.sorting.SortingAlgorithm;
+import com.enderdincer.sorting.integer.IntegerSorter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SimpleBubbleSort implements SortingAlgorithm {
+public class SimpleBubbleSort implements IntegerSorter {
 
     @Override
     public int[] sort(int[] intArray) {

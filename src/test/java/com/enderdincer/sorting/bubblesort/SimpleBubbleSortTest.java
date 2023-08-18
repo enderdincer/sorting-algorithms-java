@@ -1,6 +1,6 @@
 package com.enderdincer.sorting.bubblesort;
 
-import com.enderdincer.sorting.SortingAlgorithm;
+import com.enderdincer.sorting.integer.IntegerSorter;
 import com.enderdincer.sorting.util.SortingTestHelper;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 
 public class SimpleBubbleSortTest {
 
-    SortingAlgorithm simpleBubbleSort = new SimpleBubbleSort();
+    IntegerSorter simpleBubbleSort = new SimpleBubbleSort();
 
     @Test
     public void given100000RandomIntegers() {

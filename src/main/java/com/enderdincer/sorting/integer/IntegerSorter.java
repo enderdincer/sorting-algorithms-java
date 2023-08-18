@@ -1,8 +1,8 @@
-package com.enderdincer.sorting;
+package com.enderdincer.sorting.integer;
 
 import java.util.List;
 
-public interface SortingAlgorithm {
+public interface IntegerSorter {
 
     int[] sort(int[] array);
 

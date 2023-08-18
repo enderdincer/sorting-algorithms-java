@@ -1,10 +1,10 @@
 package com.enderdincer.sorting.mergesort;
 
-import com.enderdincer.sorting.SortingAlgorithm;
+import com.enderdincer.sorting.integer.IntegerSorter;
 
 import java.util.List;
 
-public class SimpleMergeSort implements SortingAlgorithm {
+public class SimpleMergeSort implements IntegerSorter {
 
     private int[] merge(int[] left, int[] right) {
         int size = left.length + right.length;
