@@ -2,7 +2,7 @@ package com.enderdincer.sorting.bubblesort;
 
 import com.enderdincer.sorting.integer.IntegerSorter;
 import com.enderdincer.sorting.util.SortingTestHelper;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
