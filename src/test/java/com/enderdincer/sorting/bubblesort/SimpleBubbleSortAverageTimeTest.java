@@ -17,10 +17,4 @@ public class SimpleBubbleSortAverageTimeTest {
                 .map(index -> (int) (Math.random() * 100))
                 .boxed().collect(Collectors.toList());
     }
-
-    @Test
-    public void givenRandomIntegers() {
-        final int listSize = 1_000;
-        SortingTestHelper.measureAverageTime(() -> simpleBubbleSort.sort(getRandomList(listSize)), 100);
-    }
 }

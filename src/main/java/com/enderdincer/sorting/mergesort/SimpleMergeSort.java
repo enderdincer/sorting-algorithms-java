@@ -53,8 +53,4 @@ public class SimpleMergeSort implements IntegerSorter {
         return merge(sortedLeft, sortedRight);
     }
 
-    @Override
-    public List<Integer> sort(List<Integer> list) {
-        return null;
-    }
 }

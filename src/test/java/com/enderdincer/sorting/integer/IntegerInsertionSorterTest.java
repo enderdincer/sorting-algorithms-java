@@ -20,3 +20,4 @@ public class IntegerInsertionSorterTest {
         System.out.println("Sorted: "+Arrays.toString(sorted));
     }
 }
+
