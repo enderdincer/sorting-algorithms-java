@@ -1,6 +1,5 @@
-package com.enderdincer.sorting.integer;
+package com.enderdincer.sorting.integer.insertion;
 
-import com.enderdincer.sorting.integer.insertion.IntegerInsertionSorter;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
