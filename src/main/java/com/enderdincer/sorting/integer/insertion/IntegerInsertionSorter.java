@@ -1,10 +1,10 @@
 package com.enderdincer.sorting.integer.insertion;
 
-import com.enderdincer.sorting.integer.IntegerSorter;
+import com.enderdincer.sorting.integer.IntegerAbstractSorter;
 
 import java.util.Arrays;
 
-public class IntegerInsertionSorter implements IntegerSorter {
+public class IntegerInsertionSorter extends IntegerAbstractSorter {
 
 
     @Override
@@ -39,11 +39,5 @@ public class IntegerInsertionSorter implements IntegerSorter {
         }
 
         return arrayCopy;
-    }
-
-    private void swap(int[] array, int index1, int index2) {
-        int temp = array[index1];
-        array[index1] = array[index2];
-        array[index2] = temp;
     }
 }

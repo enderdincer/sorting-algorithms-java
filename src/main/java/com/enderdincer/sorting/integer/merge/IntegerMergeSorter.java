@@ -1,10 +1,10 @@
 package com.enderdincer.sorting.integer.merge;
 
-import com.enderdincer.sorting.integer.IntegerSorter;
+import com.enderdincer.sorting.integer.IntegerAbstractSorter;
 
 import java.util.Arrays;
 
-public class IntegerMergeSorter implements IntegerSorter {
+public class IntegerMergeSorter extends IntegerAbstractSorter {
 
     @Override
     public int[] sort(int[] array) {
