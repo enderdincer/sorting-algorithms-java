@@ -1,7 +1,7 @@
 package com.enderdincer.sorting.integer;
 
 
-public interface IntegerSorter {
+public interface IntSorter {
 
     int[] sort(int[] array);
 }

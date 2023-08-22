@@ -11,7 +11,7 @@ public class IntegerMergeSorterTest {
         final int[] given = new int[]{2, 3, 2, 6, 7, 8, 4, 2, 1};
         System.out.println("Given:  "+ Arrays.toString(given));
 
-        final var sorter = new IntegerMergeSorter();
+        final var sorter = new IntMergeSorter();
 
         final int[] sorted = sorter.sort(given);
 

@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-public class IntegerBubbleSorterTest {
+public class IntBubbleSorterTest {
 
     @Test
     void test() {
         final int[] given = new int[]{2, 3, 2, 6, 7, 8, 4, 2, 1};
         System.out.println("Given:  "+ Arrays.toString(given));
 
-        final var sorter = new IntegerBubbleSorter();
+        final var sorter = new IntBubbleSorter();
 
         final int[] sorted = sorter.sort(given);
 

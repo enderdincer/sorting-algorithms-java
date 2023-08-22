@@ -1,8 +1,8 @@
 package com.enderdincer.sorting.integer.bubble;
 
-import com.enderdincer.sorting.integer.IntegerAbstractSorter;
+import com.enderdincer.sorting.integer.IntAbstractSorter;
 
-public class IntegerBubbleSorter extends IntegerAbstractSorter {
+public class IntBubbleSorter extends IntAbstractSorter {
 
     @Override
     public int[] sort(int[] array) {
