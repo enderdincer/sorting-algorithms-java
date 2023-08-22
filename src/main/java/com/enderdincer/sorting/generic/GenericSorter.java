@@ -1,4 +1,9 @@
 package com.enderdincer.sorting.generic;
 
-public interface GenericSorter {
+import java.util.Collection;
+import java.util.List;
+
+public interface GenericSorter <T> {
+
+    List<T> sort(Collection<T> collection);
 }
