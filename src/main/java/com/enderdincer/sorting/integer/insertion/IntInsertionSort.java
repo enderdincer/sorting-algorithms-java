@@ -1,11 +1,10 @@
 package com.enderdincer.sorting.integer.insertion;
 
-import com.enderdincer.sorting.integer.IntAbstractSorter;
+import com.enderdincer.sorting.integer.IntAbstractSort;
 
 import java.util.Arrays;
 
-public class IntInsertionSorter extends IntAbstractSorter {
-
+public class IntInsertionSort extends IntAbstractSort {
 
     @Override
     public int[] sort(int[] array) {
@@ -39,5 +38,10 @@ public class IntInsertionSorter extends IntAbstractSorter {
         }
 
         return arrayCopy;
+    }
+
+    @Override
+    public String getAlgorithmName() {
+        return "Insertion Sort";
     }
 }

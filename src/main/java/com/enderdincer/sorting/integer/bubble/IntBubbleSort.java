@@ -1,8 +1,8 @@
 package com.enderdincer.sorting.integer.bubble;
 
-import com.enderdincer.sorting.integer.IntAbstractSorter;
+import com.enderdincer.sorting.integer.IntAbstractSort;
 
-public class IntBubbleSorter extends IntAbstractSorter {
+public class IntBubbleSort extends IntAbstractSort {
 
     @Override
     public int[] sort(int[] array) {
@@ -14,5 +14,10 @@ public class IntBubbleSorter extends IntAbstractSorter {
             }
         }
         return array;
+    }
+
+    @Override
+    public String getAlgorithmName() {
+        return "Bubble Sort";
     }
 }
