@@ -1,10 +1,10 @@
 package com.enderdincer.sorting.integer.insertion;
 
-import com.enderdincer.sorting.integer.IntAbstractSort;
+import com.enderdincer.sorting.integer.AbstractIntSort;
 
 import java.util.Arrays;
 
-public class IntInsertionSort extends IntAbstractSort {
+public class InsertionIntSort extends AbstractIntSort {
 
     @Override
     public int[] sort(int[] array) {

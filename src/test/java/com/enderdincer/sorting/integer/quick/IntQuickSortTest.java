@@ -10,7 +10,7 @@ public class IntQuickSortTest {
 
     @Test
     void quickSort() {
-        final int[] given = new int[]{2, 3, 2, 6, 7, 8, 4, 2, 1};
+        final int[] given = new int[]{2, 3, 2, 6, 8, 7, 4, 1, 5};
 
         System.out.println("Given:  " + Arrays.toString(given));
 

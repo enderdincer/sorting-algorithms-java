@@ -1,7 +1,6 @@
 package com.enderdincer.sorting.integer.bubble;
 
 import com.enderdincer.sorting.integer.IntSort;
-import com.enderdincer.sorting.integer.merge.IntMergeSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -9,7 +8,7 @@ import java.util.Arrays;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class IntBubbleSortTest {
-    private final IntSort bubbleSort = new IntBubbleSort();
+    private final IntSort bubbleSort = new BubbleIntSort();
 
     @Test
     void mergeSort() {

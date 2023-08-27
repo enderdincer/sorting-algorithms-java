@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class IntMergeSortTest {
 
-    private final IntSort mergeSort = new IntMergeSort();
+    private final IntSort mergeSort = new MergeIntSort();
 
     @Test
     void mergeSort() {
